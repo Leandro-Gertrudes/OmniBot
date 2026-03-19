@@ -163,7 +163,10 @@ void diagonal_frente_direita() {
 }
 
 void diagonal_frente_esquerda() {
-  // ** TAREFA: implementar
+	motorFL(0);
+	motorFR(SPEED);
+	motorBL(SPEED);
+	motorBR(0);
 }
 
 void diagonal_tras_direita() {
