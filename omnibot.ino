@@ -185,7 +185,10 @@ void girar_direita() {
 }
 
 void girar_esquerda() {
-  // ** TAREFA: implementar
+	motorFL(-SPEED);
+	motorFR(SPEED);
+	motorBL(-SPEED);
+	motorBR(SPEED);
 }
 
 void parar() {
