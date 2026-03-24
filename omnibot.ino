@@ -160,6 +160,10 @@ void mover_esquerda() {
 
 void diagonal_frente_direita() {
   // ** TAREFA: implementar
+  motorFL(SPEED);
+  motorFR(0);
+  motorBL(0);
+  motorBR(SPEED);
 }
 
 void diagonal_frente_esquerda() {
