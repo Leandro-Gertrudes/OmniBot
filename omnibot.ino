@@ -147,7 +147,10 @@ void mover_frente() {
 }
 
 void mover_tras() {
-  // ** TAREFA: implementar
+	motorFL(-SPEED);
+	motorFR(-SPEED);
+	motorBL(-SPEED);
+	motorBR(-SPEED);
 }
 
 void mover_direita() {
